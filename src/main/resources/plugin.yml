@@ -1,0 +1,11 @@
+name: EnderCore
+version: 1.0.0
+description: The core of EnderCraft
+load: STARTUP
+authors: [EnderCraft, Clout Team]
+website: https://endercraft.uk
+main: uk.endercraft.endercore.bukkit.ClassLoader
+commands:
+    tell:
+        aliases: [msg, pm, privatemessage, pmessage, pmsg, privatemsg, privatem]
+        description: Send a private message
